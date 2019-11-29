@@ -74,6 +74,11 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+$routes->get('api/user/login', 'Api\User::login');
+$routes->get('api/user/secret', 'Api\User::secret');
+$routes->post('api/user/store', 'Api\User::store');
+$routes->post('api/user/del', 'Api\User::del');
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing

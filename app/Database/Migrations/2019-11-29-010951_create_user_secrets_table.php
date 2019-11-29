@@ -8,7 +8,8 @@ class CreateUserSecretsTable extends Migration
 	{
 		$query = <<<'EOT'
 create table `user_secrets` (
-    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+	`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+    `sid` bigint(20) unsigned not null,
     `uid` bigint(20) unsigned not null,
     `title` varchar(255) not null,
     `name` varchar(255) not null,

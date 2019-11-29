@@ -91,3 +91,10 @@
 #  honeypot.label = 'Fill This Field'
 #  honeypot.name = 'honeypot'
 #  honeypot.template = '<label>{label}</label><input type="text" name="{name}" value=""/>'
+
+#--------------------------------------------------------------------
+# WECHAT
+#--------------------------------------------------------------------
+
+WECHAT_MINI_PROGRAM_APPID = null
+WECHAT_MINI_PROGRAM_SECRET = null
